@@ -36,7 +36,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-I learned how to use flexbox to center the QR code card. I create a flex container with a child element that has the QR code card. I then set the flex-direction to column, and the justify-content to center. This centers the QR code card both horizontally and vertically.
+I learned how to use flexbox to center the QR code card. I created a flex container with a child element that has the QR code card. I then set the flex-direction to column, and the justify-content to center. This centers the QR code card both horizontally and vertically.
 The css code part is as follows:
 
 ```css
@@ -47,6 +47,14 @@ The css code part is as follows:
     height: 100vh;    
 }
 ```
+
+Additionally, I learned about HTML landmarks and web accessibility. I discovered that:
+- Every webpage should have one main landmark (`<main>` element) to help screen readers identify the primary content
+- HTML5 semantic elements like `<main>`, `<header>`, `<nav>`, and `<footer>` automatically create appropriate landmarks
+- These landmarks are crucial for making websites more accessible to users who rely on assistive technologies
+- While ARIA landmarks (using `role` attributes) can provide similar functionality, HTML5 semantic elements are the preferred approach
+
+Through the process of fine-tuning the layout, I also improved my understanding of CSS properties like border-radius, margin, and padding, learning how they work together to create precise and responsive designs.
 
 ### Continued development
 
